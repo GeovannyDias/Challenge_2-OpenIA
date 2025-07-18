@@ -18,6 +18,8 @@ Este servicio analiza texto en español y determina la polaridad emocional del m
 
 ```json
 {
+  "@azure-rest/ai-inference": "^1.0.0-beta.6",
+  "@azure/core-auth": "^1.10.0",
   "node-fetch": "^2.7.0"
 }
 ```
@@ -30,7 +32,7 @@ challenge_2/
 ├── package.json               # Configuración del proyecto
 ├── README.md                  # Documentación (este archivo)
 ├── pruebas-sentimientos.md    # Lista de pruebas para el analizador
-└── node_modules/              # Dependencias instaladas
+└── Challenge-Instructions.md   # Instrucciones del reto
 ```
 
 ## 🔧 Instalación y configuración
@@ -53,6 +55,8 @@ challenge_2/
 ```bash
 # Clonar o descargar el proyecto
 cd challenge_2
+o
+cd Challenge_2-OpenIA
 
 # Instalar dependencias
 npm install
